@@ -18,8 +18,7 @@ export default function Home() {
         <div className="grid grid-cols-1 text-center max-w-2xl text-muted-foreground">
           <p className="mb-4">
             I&apos;m a student software developer at the University of Manitoba
-            with a passion for creating effecient and functional web
-            applications. This portfolio showcases my work and skills.
+            with a passion for coding. This portfolio showcases my recent work and practical experience with projects.
           </p>
           <p className="mb-4">
             Feel free to explore my projects and get in touch if you&apos;d like
@@ -46,8 +45,6 @@ export default function Home() {
       <HighLtdProjects />
 
       <Contact />
-
-
     </>
   );
 }
