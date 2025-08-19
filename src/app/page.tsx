@@ -1,0 +1,53 @@
+"use client";
+import { MoveDown } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { BackgroundBeams } from "@/components/ui/background-beams";
+import About from "@/components/About";
+import HighLtdProjects from "@/components/ProjectsHighltd";
+import Contact from "@/components/Contact";
+
+export default function Home() {
+  return (
+    <>
+      {/*Hero  */}
+      <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-1 sm:p-20">
+        <h1 className="text-4xl sm:text-6xl font-bold text-center text-muted-foreground">
+          HELLO, I&apos;M GIDEON ASHIRU
+        </h1>
+
+        <div className="grid grid-cols-1 text-center max-w-2xl text-muted-foreground">
+          <p className="mb-4">
+            I&apos;m a student software developer at the University of Manitoba
+            with a passion for creating effecient and functional web
+            applications. This portfolio showcases my work and skills.
+          </p>
+          <p className="mb-4">
+            Feel free to explore my projects and get in touch if you&apos;d like
+            to collaborate!
+          </p>
+
+          <a href="#projects" className="z-1000">
+            <Button
+              variant="default"
+              className="w-fit mx-auto hover:bg-accent cursor-pointer hover:ring-2 hover:ring-ring hover:ring-offset animate-bounce"
+            >
+              <MoveDown className="mr-2 " />
+              View Projects
+            </Button>
+          </a>
+        </div>
+        <BackgroundBeams />
+      </div>
+
+      {/* About */}
+      <About />
+
+      {/* Projects */}
+      <HighLtdProjects />
+
+      <Contact />
+
+
+    </>
+  );
+}
