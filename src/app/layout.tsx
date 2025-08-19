@@ -26,6 +26,7 @@ export default function RootLayout({
         </ScrollingNavbar>
 
         {children}
+         <Analytics />
         {/* Footer */}
         <footer className=" grid grid-rows items-center justify-items-center text-xl text-card-foreground/70 p-8 mt-4 sm:p-15">
           &copy; {new Date().getFullYear()} Gideon. All rights reserved.
