@@ -1,0 +1,1 @@
+Made with Next.JS, TailwindCSS and some ShadCN UI components
