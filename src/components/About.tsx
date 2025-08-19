@@ -28,14 +28,15 @@ export default function About() {
         {/* Paragraph below */}
         <p className="lg:text-xl sm:text-sm text-foreground max-w-2xl leading-relaxed text-justify">
           I’m a passionate student and aspiring software developer with a strong
-          interest in building creative and impactful solutions. My experience
-          spans across web and app development, and I’m eager to explore areas
-          like game development in the future. I enjoy working with a variety of
-          programming languages, constantly seeking opportunities
-          to learn new technologies and take on projects that challenge me. For
-          me, development is not just about writing code—it’s about solving
-          problems, creating engaging experiences, and continuously growing as a
-          developer.
+          interest in building creative and impactful solutions. My practical
+          experience spans across web and app development using Java,
+          TypeScript, React, NextJS and more, i’m eager to explore areas like
+          game development in the future. I enjoy working with a variety of
+          programming languages, constantly seeking opportunities to learn new
+          technologies and take on projects that challenge me. For me,
+          development isn&apos;t just writing code it’s also finding creative
+          ways to solve problems, creating engaging experiences, and
+          continuously growing as a developer.
         </p>
       </div>
     </div>
