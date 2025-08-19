@@ -26,7 +26,7 @@ export default function RootLayout({
 
         {children}
         {/* Footer */}
-        <footer className=" grid grid-rows items-center justify-items-center text-xl text-card-foreground/70 p-8 sm:p-15">
+        <footer className=" grid grid-rows items-center justify-items-center text-xl text-card-foreground/70 p-8 mt-4 sm:p-15">
           &copy; {new Date().getFullYear()} Gideon. All rights reserved.
         </footer>
       </body>

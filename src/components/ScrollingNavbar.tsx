@@ -27,7 +27,7 @@ export const ScrollingNavbar = ({
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const STICKY_PAGES = ["/resume", "/projects"];
+  const STICKY_PAGES = ["/resume", "/projects", "/not-found"];
 
   // Special case for page: always sticky
   if (STICKY_PAGES.includes(pathname)) {
