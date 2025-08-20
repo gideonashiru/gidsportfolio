@@ -1,4 +1,6 @@
 import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from '@vercel/speed-insights/next';
+
 import type { Metadata } from "next";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
@@ -27,6 +29,8 @@ export default function RootLayout({
 
         {children}
          <Analytics />
+         <SpeedInsights />
+
         {/* Footer */}
         <footer className=" grid grid-rows items-center justify-items-center text-xl text-card-foreground/70 p-8 mt-4 sm:p-15">
           &copy; {new Date().getFullYear()} Gideon. All rights reserved.
