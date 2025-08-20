@@ -25,7 +25,7 @@ export default function Home() {
             to collaborate!
           </p>
 
-          <a href="#projects" className="z-1000">
+          <a href="#projects" className="z-1">
             <Button
               variant="default"
               className="w-fit mx-auto hover:bg-accent cursor-pointer hover:ring-2 hover:ring-ring hover:ring-offset animate-bounce"
