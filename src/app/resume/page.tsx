@@ -2,10 +2,25 @@ import Resume from "@/components/Resume";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Gideon Ashiru | Resume",
-  description: "My resume",
-};
-
+  title: 'Resume',
+  description: 'Download or view Gideon Ashiru\'s resume. Software developer with experience in web development, programming, and technical projects at University of Manitoba.',
+  keywords: 'resume, CV, software developer resume, Gideon Ashiru resume, University of Manitoba, developer CV, programming experience',
+  openGraph: {
+    title: 'Gideon Ashiru - Resume & CV',
+    description: 'Download or view my resume showcasing software development skills, education, and project experience.',
+    
+    // images: ['https://gideonashiru.dev/resumepreview.jpg'], dont have one yet (place in public)
+  },
+  twitter: {
+    title: 'Gideon Ashiru - Resume & CV',
+    description: 'Download or view my resume showcasing software development skills and experience.',
+  },
+ 
+  other: {
+    'application-name': 'Gideon Ashiru Resume',
+    'format-detection': 'telephone=no', // Prevents phone number auto-detection
+  },
+}
 export default function Page() {
   return (
     <div>
