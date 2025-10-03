@@ -44,7 +44,7 @@ export const rsvphub: ProjectType = {
 export const examit: ProjectType = {
   title: "Examit",
   description:
-    "An Android app that helps students prepare for exams by providing a platform for them to create and share study materials. No live demo on the web, you would have to install android studio then download the project from my github to run it. Here's a demo video though: ",
+    "Designed an Android exam prep tool with flashcards, mock tests, and performance tracking, using HSQLDB for data persistence. No live demo on the web, you would have to install android studio then download the project from my github to run it. Here's a demo video though: ",
   media: "/assets/demo.mp4",
   url: "",
   techStack: ["Android Studio", "Java", "Material UI", "HSQLDB",],

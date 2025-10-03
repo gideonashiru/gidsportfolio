@@ -22,9 +22,13 @@ export const metadata: Metadata = {
   },
 }
 export default function Page() {
+
+  
   return (
     <div>
       <Resume pdfUrl={RESUME_URL} />
+
+      
     </div>
   );
 }
