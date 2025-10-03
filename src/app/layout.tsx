@@ -49,22 +49,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-TD08F9JJBN"
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-TD08F9JJBN"
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', 'G-TD08F9JJBN');
             `,
-          }}
-        />
-      </head>
+        }}
+      />
       <body
         className={twMerge("font-mono flex flex-col min-h-screen antialiased")}
       >
