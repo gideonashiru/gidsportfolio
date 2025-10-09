@@ -2,6 +2,7 @@
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { Metadata } from "next";
+import Script from "next/script";
 import "./globals.css";
 import { twMerge } from "tailwind-merge";
 import { Navbar } from "@/components/Navbar";
@@ -49,23 +50,22 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <script
-        async
-        src="https://www.googletagmanager.com/gtag/js?id=G-TD08F9JJBN"
-      />
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-TD08F9JJBN');
-            `,
-        }}
-      />
       <body
         className={twMerge("font-mono flex flex-col min-h-screen antialiased")}
       >
+          {/* Google Analytics - using Next.js Script component */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-TD08F9JJBN"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-TD08F9JJBN');
+          `}
+        </Script>
         <ScrollingNavbar className="z-50 bg-background border-b">
           <Navbar />
         </ScrollingNavbar>
