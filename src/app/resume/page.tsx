@@ -34,6 +34,6 @@ export default function Page() {
 }
 
 const RESUME_URL =
-  "https://hfeexkyhshegrpuvvesj.supabase.co/storage/v1/object/sign/private/resume.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8yNjBlZTZmYS1hZDYxLTQwZGEtOTA0ZC1mMzU4NjRiMzI2NzMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcml2YXRlL3Jlc3VtZS5wZGYiLCJpYXQiOjE3NjAwMjMzMDEsImV4cCI6MjEwNjkxOTMwMX0.-BXd9AFNhXYDWOUqN6MjcKSCRTn9ly2djN9YvMEadqQ";
+  "https://hfeexkyhshegrpuvvesj.supabase.co/storage/v1/object/sign/private/resume.pdf?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8yNjBlZTZmYS1hZDYxLTQwZGEtOTA0ZC1mMzU4NjRiMzI2NzMiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJwcml2YXRlL3Jlc3VtZS5wZGYiLCJpYXQiOjE3NjEzMTQ5NDIsImV4cCI6MjEwODIxMDk0Mn0.u59U8Ecra61_eWhYQ3XAvaumWMj7hLPAqQa4GMhtcvs";
 
   
