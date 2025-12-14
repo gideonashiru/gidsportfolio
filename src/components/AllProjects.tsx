@@ -1,11 +1,12 @@
 "use client";
 import { SingleProject } from "@/components/SingleProject";
 //projects
-import { examit, rsvphub } from "@/constants/projects";
+import { examit } from "@/constants/projects";
 import React, { useState } from "react";
 import { Calendar, Code, Filter } from "lucide-react";
 
-const projectsData = [rsvphub, examit];
+// const projectsData = [rsvphub, examit];
+const projectsData = [examit];
 
 export default function ProjectsPage() {
   const [filter, setFilter] = useState("All");
